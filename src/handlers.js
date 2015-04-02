@@ -5,6 +5,14 @@ define([], function() {
         lastId: 0,
 
         getType: function(instance) {
+            if(instance === undefined) {
+                return 'Undefined';
+            }
+
+            if(instance === null) {
+                return 'Null';
+            }
+
             var name = Object.prototype.toString.call(instance);
 
             return name.substr(8, name.length - 9);
