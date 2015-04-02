@@ -6,7 +6,7 @@
         // CommonJS
         module.exports = factory();
     } else {
-        // Browser Global (mylib is your global library identifier)
-        window.mylib = factory();
+        // Browser Global
+        window.cerealizer = factory();
     }
 }(this, function() {

@@ -124,6 +124,7 @@ define([], function() {
             var length = parseInt(s.readline());
 
             for(var i = 0; i < length; ++i) {
+                //noinspection UnnecessaryLocalVariableJS
                 var value = dumper.undump_ref(s),
                     key = dumper.undump_ref(s);
 
