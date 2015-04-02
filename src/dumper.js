@@ -1,8 +1,6 @@
 define([
     'handlers'
 ], function(handlers) {
-    console.log(handlers);
-
     function Dumper() {
         this.init();
     }
