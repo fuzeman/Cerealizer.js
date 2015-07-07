@@ -4,10 +4,25 @@
 
   "main": "dist/cerealizer.js",
 
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fuzeman/Cerealizer.js.git"
+  },
+
   "devDependencies": {
     "requirejs": "~2.1.10",
     "almond": "~0.2.9",
     "mocha": "~1.17.0",
     "chai": "~1.8.1"
-  }
+  },
+
+  "ignore": [
+    "src",
+    "test",
+    
+    ".travis.yml",
+    "gulpfile.js",
+    "karma.conf.js",
+    "package.json"
+  ]
 }
